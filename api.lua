@@ -6,8 +6,8 @@ local WebhookURL = "https://discord.com/api/webhooks/1080135401529954386/7oAqpI_
 local message = "???"
 
 local MsgPrivate = {
-	["content"] = "nickname: " ..Player.name.. " reported: "message""
-}
+	["content"] = "nickname: " ..Player.name.. " reported: "..message..""
+	}
 
 MsgPrivate = HS:JSONEncode(MsgPrivate)
 
