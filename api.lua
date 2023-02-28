@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
 local plrname = Player.name
 local HS = game:GetService("HttpService")
@@ -6,7 +6,7 @@ local WebhookURL = "https://discord.com/api/webhooks/1080135401529954386/7oAqpI_
 local message = "???"
 
 local MsgPrivate = {
-	["content"] = "nickname: "..Player.name.." reported: "message""
+	["content"] = "nickname: " ..Player.name.. " reported: "message""
 }
 
 MsgPrivate = HS:JSONEncode(MsgPrivate)
